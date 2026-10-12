@@ -1,0 +1,2 @@
+- Used the supplied bare-cave input as the base for `artifacts/line-3/wall.png`.
+- Used ZTO's real Ethereum contract address (`0xd782bdea4ef02a0bd391eb9089470c8080f0a68e`) in the decoder's offline demonstration.
