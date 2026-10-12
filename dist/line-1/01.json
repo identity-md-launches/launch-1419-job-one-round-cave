@@ -1,0 +1,12 @@
+{
+  "name": "The First Signal",
+  "image": "https://api.imd.fun/artifacts/b0e7719960946344adc38ef6392799c676a6d1f8f975d1f3a8a67b782e8faeba",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Base"},
+    {"trait_type": "Wall", "value": "Line 1"},
+    {"trait_type": "Number", "value": 1},
+    {"trait_type": "Left behind", "value": "rpc-snapshot"},
+    {"trait_type": "Meaning", "value": "Pepe cups a veined stone that carries a signal for a worker to keep."},
+    {"trait_type": "One thing", "value": "portable live Ethereum state snapshots"}
+  ]
+}
