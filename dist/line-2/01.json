@@ -1,0 +1,30 @@
+{
+  "name": "The Bound Bundle",
+  "image": "https://api.imd.fun/artifacts/1c6892a0acda91c3238807a28c915990eb4e6a78bf4aebfe16dd92ab59be0b8c",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 2"
+    },
+    {
+      "trait_type": "Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "handoff"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe binds a bundle so the next worker can check what arrives."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "reproducible offline-verifiable worker handoffs"
+    }
+  ]
+}
