@@ -1,0 +1,30 @@
+{
+  "name": "Four Stones, One Bundle",
+  "image": "https://api.imd.fun/artifacts/483850c1c8e4755f593362cc72176b8cc0accd652095574f3880fdbb6c847959",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Base"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 1
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Evidence handoff"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe gathers four stones into one bundle for the next worker to carry."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
+    }
+  ]
+}

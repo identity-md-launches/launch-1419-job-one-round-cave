@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-2/tools/handoff/handoff.py",
+    "verify",
+    "line-2/handoff.zip"
+  ],
+  "time": "2026-10-12T14:01:04.138346+00:00",
+  "exit_code": 0,
+  "stdout": "{\"bytes\": 12603, \"files\": 2, \"sha256\": \"aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb\", \"verified\": true}\n",
+  "stderr": ""
+}

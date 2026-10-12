@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-4/tools/erc20-transfer-window/transfer_window.py",
+    "--latest-window",
+    "12"
+  ],
+  "time": "2026-10-12T14:01:04.883518+00:00",
+  "exit_code": 0,
+  "stdout": "{\n  \"captured_at\": \"2026-10-12T14:01:04Z\",\n  \"decimals\": 18,\n  \"from_block\": 26176844,\n  \"head_at_capture\": 26176855,\n  \"read_only\": true,\n  \"rpc\": \"https://ethereum-rpc.publicnode.com\",\n  \"to_block\": 26176855,\n  \"token\": \"ZTO\",\n  \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n  \"transfer_count\": 2,\n  \"transfers\": [\n    {\n      \"block\": 26176853,\n      \"from\": \"0x62f6d9b24e5433d8e23b7d3dbd06467fb8ca7d75\",\n      \"log_index\": 611,\n      \"raw_value\": \"485416666666666666666667\",\n      \"to\": \"0x000000000000000000000000000000000000dead\",\n      \"transaction_hash\": \"0xa9c323beae12a52b720118b8b9a31c9fa988796b5e0517e38a92ea9497d2b25d\",\n      \"value\": \"485416.666666666666666667\"\n    },\n    {\n      \"block\": 26176854,\n      \"from\": \"0x000000000004444c5dc75cb358380d2e3de08a90\",\n      \"log_index\": 550,\n      \"raw_value\": \"767611575819557411102714\",\n      \"to\": \"0xa0eeed7ad4e74912069fe16a3c3d94d2d9425c25\",\n      \"transaction_hash\": \"0xb8281063fd5330af1d7a9980c3288f29ee49a27dc0cdc0963e7da0c8730336c1\",\n      \"value\": \"767611.575819557411102714\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}

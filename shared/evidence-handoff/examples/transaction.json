@@ -1,0 +1,14 @@
+{
+  "accessList": [],
+  "calldataSelector": "0x18160ddd",
+  "chainId": 1,
+  "data": "0x18160ddd",
+  "gasLimit": 100000,
+  "maxFeePerGas": 2000000000,
+  "maxPriorityFeePerGas": 1000000000,
+  "nonce": 0,
+  "to": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "type": "EIP-1559",
+  "typeByte": "0x02",
+  "value": 0
+}

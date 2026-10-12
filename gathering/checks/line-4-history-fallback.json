@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "line-4/tools/erc20-transfer-window/transfer_window.py",
+    "--from-block",
+    "26124500",
+    "--to-block",
+    "26124511",
+    "--rpc",
+    "https://eth.drpc.org"
+  ],
+  "time": "2026-10-12T14:04:18.997680+00:00",
+  "exit_code": 0,
+  "stdout": "{\n  \"captured_at\": \"2026-10-12T14:04:18Z\",\n  \"decimals\": 18,\n  \"from_block\": 26124500,\n  \"head_at_capture\": 26176871,\n  \"read_only\": true,\n  \"rpc\": \"https://eth.drpc.org\",\n  \"to_block\": 26124511,\n  \"token\": \"ZTO\",\n  \"token_address\": \"0xd782bdea4ef02a0bd391eb9089470c8080f0a68e\",\n  \"transfer_count\": 0,\n  \"transfers\": []\n}\n",
+  "stderr": ""
+}

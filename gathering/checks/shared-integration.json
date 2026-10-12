@@ -1,0 +1,83 @@
+[
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/evidence-handoff/bundle.py",
+      "demo"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"bytes\": 2771, \"deterministic\": true, \"example_data\": \"Recorded public ZTO reads and a synthetic unsigned decoder demonstration.\", \"files\": 4, \"kinds\": [\"snapshot\", \"transaction\", \"transfers\"], \"notice\": \"Checksums establish byte integrity, not chain truth, completeness, finality, or transaction validity.\", \"sha256\": \"6463156697c45336dfdcab056ae939d33a5e18ba0af644dfb1bef2f6d395df68\", \"verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/evidence-handoff/test_bundle.py"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.004s\n\nOK\n"
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/evidence-handoff/bundle.py",
+      "pack",
+      "test/scratch/evidence.zip",
+      "--snapshot",
+      "shared/evidence-handoff/examples/snapshot.json",
+      "--transaction",
+      "shared/evidence-handoff/examples/transaction.json",
+      "--transfers",
+      "shared/evidence-handoff/examples/transfers.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"bytes\": 2771, \"files\": 4, \"kinds\": [\"snapshot\", \"transaction\", \"transfers\"], \"notice\": \"Checksums establish byte integrity, not chain truth, completeness, finality, or transaction validity.\", \"output\": \"test/scratch/evidence.zip\", \"sha256\": \"6463156697c45336dfdcab056ae939d33a5e18ba0af644dfb1bef2f6d395df68\", \"verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/evidence-handoff/bundle.py",
+      "verify",
+      "test/scratch/evidence.zip"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"bytes\": 2771, \"files\": 4, \"kinds\": [\"snapshot\", \"transaction\", \"transfers\"], \"notice\": \"Checksums establish byte integrity, not chain truth, completeness, finality, or transaction validity.\", \"sha256\": \"6463156697c45336dfdcab056ae939d33a5e18ba0af644dfb1bef2f6d395df68\", \"verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "line-2/tools/handoff/handoff.py",
+      "verify",
+      "test/scratch/evidence.zip"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"bytes\": 2771, \"files\": 4, \"sha256\": \"6463156697c45336dfdcab056ae939d33a5e18ba0af644dfb1bef2f6d395df68\", \"verified\": true}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-B",
+      "shared/evidence-handoff/bundle.py",
+      "pack",
+      "test/scratch/evidence.zip",
+      "--snapshot",
+      "shared/evidence-handoff/examples/snapshot.json",
+      "--transaction",
+      "shared/evidence-handoff/examples/transaction.json",
+      "--transfers",
+      "shared/evidence-handoff/examples/transfers.json"
+    ],
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "evidence-handoff: [Errno 17] File exists: '/root/.identitymd/work/cf7f92a4-18c9-4397-9c5a-10b2c86fe733/8081b507-9c8f-4f59-8ff9-c5716219ee95/test/scratch/evidence.zip'\n"
+  }
+]

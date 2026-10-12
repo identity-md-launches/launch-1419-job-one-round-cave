@@ -1,0 +1,51 @@
+{
+  "network": "disabled by in-memory replacements",
+  "checks": [
+    {
+      "check": "line-1 null JSON response is a controlled error",
+      "passed": false,
+      "observed": "TypeError: argument of type 'NoneType' is not iterable"
+    },
+    {
+      "check": "line-3 reject zero encoded as 0x00",
+      "passed": false,
+      "observed_nonce": 0
+    },
+    {
+      "check": "line-4 handle wrong emitter",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle wrong topic",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle out of range",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle removed log",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle short uint256",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle nonhex address topic",
+      "passed": false,
+      "observed_count": 1
+    },
+    {
+      "check": "line-4 handle duplicate log",
+      "passed": false,
+      "observed_count": 2
+    }
+  ],
+  "failed": 9
+}

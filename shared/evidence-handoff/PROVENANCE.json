@@ -1,0 +1,10 @@
+{
+  "source": "line-2/tools/handoff/handoff.py",
+  "sha256": "0b3878b76c13a18951601aef2ec48daf8c56fbb195fea953be797a7f1d8df97d",
+  "reuse": "Unmodified copy, first gathering; bundle.py is new integration glue.",
+  "examples": {
+    "snapshot": "gathering/checks/line-1-zto.json",
+    "transaction": "gathering/checks/line-3-demo.json",
+    "transfers": "gathering/checks/line-4-live.json"
+  }
+}

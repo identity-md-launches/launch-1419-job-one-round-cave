@@ -1,0 +1,6 @@
+{
+  "line_3_noncanonical_zero_accepted": true,
+  "line_4_short_uint256_accepted": true,
+  "line_4_wrong_emitter_topic_range_removed_duplicates_accepted": true,
+  "line_4_accepted_block": 26176843
+}
